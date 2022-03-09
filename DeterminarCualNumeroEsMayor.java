@@ -1,44 +1,67 @@
-/*package primerprograma; */
+/*package primerprograma; 
+ej 6
+*/
 import java.util.Scanner;
 
-public class ImprimirNumYAsterisco {
-    public static void main (String[] args) {
-
-        Scanner leer = new Scanner(System.in);
-        
-System.out.println("-------------- ");
-System.out.println(" ");
-
-        System.out.println("Este programa intenta validar si la primer letra de una frase ingresada es la letra -A- ");
-        System.out.println(" ");
-        
-        
-
-System.out.println(" ");
+public class DeterminarCualNumeroEsMayor {
 
 
+        public static void main (String[] args) {
 
-for (int i = 0; i < 3; i++) {
-    System.out.println("Por favor, ingrese un número");
-    String num = leer.nextInt();
-    System.out.println(num + num*"*");
+            int num = 0;
+            int num2 = 0;
 
-
-}
+            Scanner leer = new Scanner(System.in);
 
 
-
-
-
-
-
-System.out.println("-------------- ");
-System.out.println(" ");
-
+            System.out.println(" ");
+            System.out.println(" ");
+            System.out.println("-------------- ");
+            System.out.println(" ");
+            System.out.println("Este programa intenta verificar cuál de los dos número ingresados es mayor ");
+            System.out.println(" ");
+            System.out.println(" ");
 
 
 
         
+
+
+
+            System.out.println("Por favor, ingrese un número");
+            num = leer.nextInt();
+            System.out.println(" ");
+            System.out.println("Por favor, ingrese otro número");
+            num2 = leer.nextInt();
+
+
+
+
+
+
+
+
+            System.out.println(" ");
+            if (num > num2){
+                System.out.println("El número " + num + " es mayor que " + num2);
+            }
+            else{
+                System.out.println("El número " + num2 + " es mayor que " + num);
+            }
+
+
+
+
+
+
+
+            System.out.println(" ");
+            System.out.println("-------------- ");
+
+
+
+
+
 
     }
 }
